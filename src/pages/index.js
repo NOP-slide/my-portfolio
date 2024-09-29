@@ -333,15 +333,15 @@ const IndexPage = () => {
           </p>
           <p className="ml-5">
             With over 4 years of remote work experience and plenty of creative
-            solutions under my belt, you can trust me to get the job done
+            solutions under my belt, you can count on me to get the job done
           </p>
           <p className="mt-3 font-bold">
             <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Rapid
             learning
           </p>
           <p className="ml-5">
-            My #1 skill as a business asset. I have no issue diving deep into
-            tech I've never seen before, and quickly upskilling
+            My #1 skill as a business asset. I enjoy diving deep into tech I've
+            never seen before, and quickly upskilling
           </p>
         </div>
         <div className="w-1/2 h-[1px] mx-auto mt-12 md:mt-24 bg-white" />
