@@ -174,7 +174,7 @@ const IndexPage = () => {
           Tailwind, based on Figma designs provided by PD Digital, an Australian
           web agency where I worked for over 4 years.
         </p>
-        <div className="grid grid-cols-1 grid-rows-1 gap-6 mt-12 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid grid-cols-1 grid-rows-1 gap-6 mt-12 sm:grid-cols-2 sm:grid-rows-2">
           <div className="relative rounded-lg image-glow">
             <StaticImage
               quality={95}
@@ -182,7 +182,7 @@ const IndexPage = () => {
               placeholder="blurred"
               alt={"hallidays screenshot"}
               imgStyle={{ objectFit: "fill" }}
-              className={`rounded-lg`}
+              className={`rounded-lg w-full`}
             />
             <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
@@ -201,7 +201,7 @@ const IndexPage = () => {
               placeholder="blurred"
               alt={"portcity screenshot"}
               imgStyle={{ objectFit: "fill" }}
-              className={`rounded-lg`}
+              className={`rounded-lg w-full`}
             />
             <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
@@ -221,7 +221,7 @@ const IndexPage = () => {
               placeholder="blurred"
               alt={"nxtlvlfit screenshot"}
               imgStyle={{ objectFit: "fill" }}
-              className={`rounded-lg`}
+              className={`rounded-lg w-full`}
             />
             <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
@@ -240,7 +240,7 @@ const IndexPage = () => {
               placeholder="blurred"
               alt={"frontline screenshot"}
               imgStyle={{ objectFit: "fill" }}
-              className={`rounded-lg`}
+              className={`rounded-lg w-full`}
             />
             <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
