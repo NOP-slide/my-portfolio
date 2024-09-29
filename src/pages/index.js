@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { FaRedhat } from "react-icons/fa"
 import { FaDiamond } from "react-icons/fa6"
+import { IoLogoGithub } from "react-icons/io"
 
 const IndexPage = () => {
   const [isBorderAnimating, setIsBorderAnimating] = React.useState(false)
@@ -344,7 +345,7 @@ const IndexPage = () => {
           </p>
         </div>
         <div className="w-1/2 h-[1px] mx-auto mt-12 md:mt-24 bg-white" />
-        <p className="my-12 text-lg text-center text-white md:text-xl">
+        <p className="mt-12 text-lg text-center text-white md:text-xl">
           Impressed? Arrange an interview, and in the first 30 seconds I will
           prove I'm worth your time.
           <br />
@@ -353,6 +354,13 @@ const IndexPage = () => {
           <br />
           Andrew
         </p>
+        <a
+          href="https://github.com/NOP-slide/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoGithub className="w-12 h-12 mx-auto mt-6 mb-12 github-pulse text-brand-pink" />
+        </a>
       </div>
     </Layout>
   )
