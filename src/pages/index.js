@@ -184,7 +184,7 @@ const IndexPage = () => {
               imgStyle={{ objectFit: "fill" }}
               className={`rounded-lg`}
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25" />
+            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
               className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
               href="https://www.hallidayspointtavern.com.au/"
@@ -203,7 +203,7 @@ const IndexPage = () => {
               imgStyle={{ objectFit: "fill" }}
               className={`rounded-lg`}
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25" />
+            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
               className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
               href="https://www.portcity.com.au/"
@@ -223,7 +223,7 @@ const IndexPage = () => {
               imgStyle={{ objectFit: "fill" }}
               className={`rounded-lg`}
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25" />
+            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
               className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
               href="https://www.nxtlvlfit.com.au/"
@@ -242,7 +242,7 @@ const IndexPage = () => {
               imgStyle={{ objectFit: "fill" }}
               className={`rounded-lg`}
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25" />
+            <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 rounded-lg" />
             <a
               className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
               href="https://www.frontlineremovals.com.au/"
@@ -331,7 +331,7 @@ const IndexPage = () => {
             Self-motivation and resourcefulness
           </p>
           <p className="ml-5">
-            With over 4 years of remote work experience, and plenty of creative
+            With over 4 years of remote work experience and plenty of creative
             solutions under my belt, you can trust me to get the job done
           </p>
           <p className="mt-3 font-bold">
