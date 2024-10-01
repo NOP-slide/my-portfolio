@@ -3,7 +3,7 @@ import Typewriter from "./typewriter"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
-  <header>
+  <header className="bg-brand-blue">
     <div className="w-full pt-12 text-center patternBg">
       <Typewriter />
       <div className="relative mt-6">
