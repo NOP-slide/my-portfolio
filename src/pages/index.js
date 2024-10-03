@@ -24,69 +24,6 @@ const IndexPage = () => {
           Simply Put: I Create Business Assets That{" "}
           <span className="italic underline">Increase Your Bottom Line.</span>
         </h3>
-        <div className="relative mt-12 rounded-lg image-glow">
-          <StaticImage
-            quality={95}
-            src="../images/truthinyourstars.jpg"
-            placeholder="blurred"
-            alt={"truthinyourstars screenshot"}
-            imgStyle={{ objectFit: "fill" }}
-            className={`rounded-lg`}
-          />
-          {isBorderAnimating && (
-            <>
-              <div className="top-edge" />
-              <div className="right-edge" />
-              <div className="bottom-edge" />
-              <div className="left-edge" />
-            </>
-          )}
-          <a
-            className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
-            href="https://www.thetruthinyourstars.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Site
-          </a>
-        </div>
-
-        <div className="mt-6 text-white md:mt-12">
-          <p className="">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
-            Custom affiliate and payment platform integration
-          </p>
-          <p className="mt-3 ">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
-            Automated PDF generator and order fulfillment system
-          </p>
-          <p className="mt-3 ">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Email
-            marketing platform API integration
-          </p>
-          <p className="mt-3 ">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
-            Custom serverless event listener API for automated post-purchase
-            actions
-          </p>
-          <p className="mt-3 ">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Meta
-            pixel conversions API set up for perfect tracking accuracy
-          </p>
-          {/* <p className="mt-3 ">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
-            Heavily optimized for conversions, with multiple iterations and
-            careful analysis of user screen recordings
-          </p> */}
-          <p className="mt-3">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Coded
-            from scratch with React, Gatsby, and Tailwind. Hosted on Netlify
-          </p>
-          <p className="mt-3">
-            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
-            Currently in talks with investors
-          </p>
-        </div>
 
         <div className="relative mt-12 rounded-lg image-glow">
           <StaticImage
@@ -157,6 +94,69 @@ const IndexPage = () => {
           <p className="mt-3 ">
             <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Music
             composed and produced by me. That's my other hobby
+          </p>
+        </div>
+        <div className="relative mt-12 rounded-lg image-glow">
+          <StaticImage
+            quality={95}
+            src="../images/truthinyourstars.jpg"
+            placeholder="blurred"
+            alt={"truthinyourstars screenshot"}
+            imgStyle={{ objectFit: "fill" }}
+            className={`rounded-lg`}
+          />
+          {isBorderAnimating && (
+            <>
+              <div className="top-edge" />
+              <div className="right-edge" />
+              <div className="bottom-edge" />
+              <div className="left-edge" />
+            </>
+          )}
+          <a
+            className="absolute px-4 py-2 text-sm text-white duration-200 ease-in-out rounded-lg hover:scale-110 bg-brand-pink md:text-base bottom-3 right-3 button-glow"
+            href="https://www.thetruthinyourstars.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Site
+          </a>
+        </div>
+
+        <div className="mt-6 text-white md:mt-12">
+          <p className="">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
+            Custom affiliate and payment platform integration
+          </p>
+          <p className="mt-3 ">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
+            Automated PDF generator and order fulfillment system
+          </p>
+          <p className="mt-3 ">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Email
+            marketing platform API integration
+          </p>
+          <p className="mt-3 ">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
+            Custom serverless event listener API for automated post-purchase
+            actions
+          </p>
+          <p className="mt-3 ">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Meta
+            pixel conversions API set up for perfect tracking accuracy
+          </p>
+          {/* <p className="mt-3 ">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
+            Heavily optimized for conversions, with multiple iterations and
+            careful analysis of user screen recordings
+          </p> */}
+          <p className="mt-3">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" /> Coded
+            from scratch with React, Gatsby, and Tailwind. Hosted on Netlify
+          </p>
+          <p className="mt-3">
+            <FaDiamond className="inline-block w-3 h-3 text-brand-pink" />{" "}
+            Currently in talks with investors
           </p>
         </div>
         <div className="w-1/2 h-[1px] mx-auto mt-12 md:mt-24 bg-white" />
